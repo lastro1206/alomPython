@@ -2,6 +2,7 @@ purchase = int(input())
 membership = input()
 
 discount = 0
+
 if(membership == "VIP") :
     if(purchase >= 100000):
         discount = 20
